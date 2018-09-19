@@ -1,0 +1,51 @@
+
+# Entities and attributes
+
+entity jpa --class ~.domain.Reserva  --sequenceName RESERVA_SEQ
+	
+entity jpa --class ~.domain.Recurso  --sequenceName RECURSO_SEQ
+	
+entity jpa --class ~.domain.Usuario  --sequenceName USUARIO_SEQ
+	
+entity jpa --class ~.domain.Factura  --sequenceName FACTURA_SEQ
+	
+entity jpa --class ~.domain.ExtraRecurso  --sequenceName EXTRARECURSO_SEQ
+	
+entity jpa --class ~.domain.AtributosReserva  --sequenceName ATRIBUTOSRESERVA_SEQ
+	field string --fieldName nombre --notNull
+	field string --fieldName tipo --notNull
+	field string --fieldName valor --notNull
+	
+entity jpa --class ~.domain.AtributosUsuario  --sequenceName ATRIBUTOSUSUARIO_SEQ
+	field string --fieldName nombre --notNull
+	field string --fieldName tipo --notNull
+	field string --fieldName valor --notNull
+	
+entity jpa --class ~.domain.AtributosRecurso  --sequenceName ATRIBUTOSRECURSO_SEQ
+	field string --fieldName nombre --notNull
+	field string --fieldName tipo --notNull
+	field string --fieldName valor --notNull
+	
+entity jpa --class ~.domain.AtributosExtraRec  --sequenceName ATRIBUTOSEXTRAREC_SEQ
+	field string --fieldName nombre --notNull
+	field string --fieldName tipo --notNull
+	field string --fieldName valor --notNull
+	
+entity jpa --class ~.domain.AtributosFactura  --sequenceName ATRIBUTOSFACTURA_SEQ
+	field string --fieldName nombre --notNull
+	field string --fieldName tipo --notNull
+	field string --fieldName valor --notNull
+	
+
+
+# Start of user code for entities and atributes
+
+# End of user code
+
+# References (relations between entities)
+
+
+# Start of user code for references
+
+# End of user code for references
+
